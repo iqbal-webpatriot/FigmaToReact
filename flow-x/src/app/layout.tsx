@@ -3,8 +3,8 @@ import { Inter, Sora } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/components/layout/Navbar';
 
-const inter = Inter({ subsets: ['latin'],variable:'--font-inter' });
-const sora = Sora({ subsets: ["latin"], weight: ["400"] ,variable:'--font-sora' });
+const inter = Inter({ subsets: ['latin'],variable:'--font-inter', display: 'swap', });
+const sora = Sora({ subsets: ["latin"], weight: ["400"] ,variable:'--font-sora' , display: 'swap',});
 
 export const metadata: Metadata = {
   title: 'Create Next App',
