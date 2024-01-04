@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NextLink from "../ui/NextLink";
 
 export default function Navbar() {
   return (
@@ -25,17 +26,20 @@ export default function Navbar() {
            
           </div>
           <p className="text-[1.76rem]"> flow</p> */}
-          <img src="/logo.svg" alt="8x flow logo"/>
+          <NextLink
+            title={<img src="/logo.svg" alt="8x flow logo" />}
+            href="/"
+          />
         </div>
         <ul className="flex justify-evenly items-center content-center gap-10  ">
           <li className=" text-active">
-            <Link href="/sample-page">Sample Page</Link>
+            <NextLink href="/sample-page" title={"Sample Page"} />
           </li>
           <li>
-            <Link href="/style-guide">Style Guide</Link>
+            <NextLink href="/style-guide" title={"Sample Page"} />
           </li>
-          <li >
-            <Link href="/tutorial">Tutorial</Link>
+          <li>
+            <NextLink href="/tutorial" title={"Sample Page"} />
           </li>
         </ul>
       </nav>
