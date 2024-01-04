@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter, Sora } from 'next/font/google'
 import './globals.css'
+import Navbar from '@/components/layout/Navbar';
 
 const inter = Inter({ subsets: ['latin'],variable:'--font-inter' });
 const sora = Sora({ subsets: ["latin"], weight: ["400"] ,variable:'--font-sora' });
@@ -17,7 +18,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${sora.variable}`}>{children}</body>
+      <body className={`${inter.variable} ${sora.variable}`}>
+        <Navbar/>
+        {children}
+        </body>
     </html>
   )
 }
