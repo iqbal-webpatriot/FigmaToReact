@@ -10,6 +10,7 @@
     --white-125: #b0b0b0;
     --white-150: #818181;
     --active-link:#DBF40C;
+    --black-100:#1D1D1D;
   }
 }
 html {
@@ -19,5 +20,5 @@ html {
 body {
   font-family: var(--font-sora);
   color: var(--white-100);
-  /* background: var(--black-100); */
+  background: var(--black-100);
 }
