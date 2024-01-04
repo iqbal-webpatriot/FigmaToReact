@@ -32,14 +32,14 @@ export default function Navbar() {
           />
         </div>
         <ul className="flex justify-evenly items-center content-center gap-10  ">
-          <li className=" text-active">
+          <li className="">
             <NextLink href="/sample-page" title={"Sample Page"} />
           </li>
           <li>
-            <NextLink href="/style-guide" title={"Sample Page"} />
+            <NextLink href="/style-guide" title={"Style Guide"} />
           </li>
           <li>
-            <NextLink href="/tutorial" title={"Sample Page"} />
+            <NextLink href="/tutorial" title={"Tutorial"} />
           </li>
         </ul>
       </nav>
