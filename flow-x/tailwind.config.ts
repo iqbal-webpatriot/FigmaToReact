@@ -11,10 +11,14 @@ const config: Config = {
       fontFamily:{
         sora:[
           'var(--font-sora)'
-        ]
+        ],
+        inter:['var(--font-inter)']
       },
       colors:{
         active:"var(--active-link)"
+      },
+      backgroundColor:{
+        "btn-green":"var(--active-link)"
       }
     },
   },
