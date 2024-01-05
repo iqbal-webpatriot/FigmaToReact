@@ -1,4 +1,5 @@
 import Hero from "@/components/layout/Hero";
+import Projects from "@/components/layout/Projects";
 import Services from "@/components/layout/Services";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
    <div className='w-full h-screen'>
     <Hero/>
     <Services/>
+    <Projects/>
    </div>
    </>
   )
