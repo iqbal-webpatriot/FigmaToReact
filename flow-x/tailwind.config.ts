@@ -20,6 +20,9 @@ const config: Config = {
       },
       backgroundColor:{
         "btn-green":"var(--active-link)"
+      },
+      borderColor:{
+        borderGreen:"var(--border-green)"
       }
     },
   },
