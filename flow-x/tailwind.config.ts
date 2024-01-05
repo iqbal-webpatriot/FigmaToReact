@@ -15,7 +15,8 @@ const config: Config = {
         inter:['var(--font-inter)']
       },
       colors:{
-        active:"var(--active-link)"
+        active:"var(--active-link)",
+        "muted1":"var(--white-125)"
       },
       backgroundColor:{
         "btn-green":"var(--active-link)"
