@@ -1,3 +1,5 @@
+import ButtonGreenPrimary from "../ui/ButtonGreenPrimary";
+
 export default function Hero() {
   return (
     <>
@@ -8,9 +10,8 @@ export default function Hero() {
           We design and develop handcrafted websites for amazing companies who
           want to win the digital game.
         </p>
-        <button className=" w-[12.91rem] h-[4.32rem] mt-[3rem] rounded-[3.12rem] bg-btn-green text-black font-sora text-[0.9rem] p-[1.35rem 2.55rem]">
-          Let’s get in touch
-        </button>
+
+        <ButtonGreenPrimary>Let’s get in touch</ButtonGreenPrimary>
       </div>
     </>
   );
