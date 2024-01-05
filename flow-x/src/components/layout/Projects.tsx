@@ -1,3 +1,4 @@
+import ButtonBlackMedium from "../ui/ButtonBlackMedium";
 import ProjectCard from "../ui/ProjectCard";
 const PROJECT_DATA=[{id:1,title:"Automotive UI design",url:'car.jpg'},
 {id:2,title:"Speaker UI design",url:'sound.jpg'},
@@ -11,9 +12,9 @@ export default function Projects() {
           <h2 className="font-sora text-[3rem] leading-[3.6rem] text-[#E7E7E7]">
             Latest projects
           </h2>
-          <button className="  w-[12.12rem] h-[4.37rem] font-sora text-[0.9rem] text-[#E7E7E7] p-[1.625rem 2.5rem] rounded-[3.12rem] bg-[#181818]">
-            See all projects
-          </button>
+          <ButtonBlackMedium>
+          See all projects
+          </ButtonBlackMedium>
         </div>
         <div className="w-full flex justify-start gap-[1.5rem] p-10">
           {PROJECT_DATA.map((project)=>{
