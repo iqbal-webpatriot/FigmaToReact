@@ -8,7 +8,7 @@ export default function ProjectCard({id,title,url}:ProjectCardProps) {
   return (
     <>
       <div key={id} className="w-[24.5rem] flex flex-col gap-[1.5rem] justify-start rounded-[0rem 1rem 0rem 1rem ] ">
-        <img
+        <img 
           src={`/images/${url}`}
           className="w-full h-[29.75rem] rounded-2xl"
           alt="project card"
