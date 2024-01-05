@@ -1,4 +1,5 @@
 import { AbstractIcon1, AbstractIcon2, AbstractIcon3, AbstractIcon4, AbstractIcon5, AbstractIcon6 } from "../../../public/icons/Icons";
+import ButtonGreenPrimary from "../ui/ButtonGreenPrimary";
 import CardIcon from "../ui/CardIcon";
 const WhyUsData=[
     {
@@ -46,6 +47,9 @@ export default function WhyUs() {
             })}
             
           </div>
+          <ButtonGreenPrimary>
+        Let’s get in touch
+        </ButtonGreenPrimary>
       </div>
     </>
   );
